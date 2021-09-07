@@ -1,0 +1,37 @@
+{
+    "Dummy_CMDName": {
+        "type": "textbox",
+        "value": "Insert command name here",
+        "label": "Name",
+        "tooltip": "The command that lists all registered commands",
+        "group": "Dummy Command"
+    },
+    "Dummy_CMDCooldown": {
+        "type": "numberbox",
+        "value": 10,
+        "label": "Cooldown",
+        "tooltip": "The cooldown for this command",
+        "group": "Dummy Command"
+    },
+    "Dummy_CMDIsGlobal": {
+        "type": "checkbox",
+        "value": false,
+        "label": "Global cooldown",
+        "tooltip": "Is the cooldown global or user based?",
+        "group": "Dummy Command"
+    },
+    "Dummy_CMDUsage": {
+        "type": "textbox",
+        "value": "Insert command usage here",
+        "label": "Usage",
+        "tooltip": "The usage of this command",
+        "group": "Dummy Command"
+    },
+    "Dummy_CMDDescription": {
+        "type": "textbox",
+        "value": "Insert command description here",
+        "label": "Description",
+        "tooltip": "The full description of this command",
+        "group": "Dummy Command"
+    }
+}

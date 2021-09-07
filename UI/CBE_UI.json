@@ -1,0 +1,53 @@
+{
+    "CBE_ChatColor": {
+        "type": "dropdown",
+        "value": "Coral",
+        "label": "Chatbot chat color",
+        "tooltip": "The color this chatbot uses in Twitch chat",
+        "items": ["Blue", "Coral", "DodgerBlue", "SpringGreen", "YellowGreen", "Green", "OrangeRed", "Red", "GoldenRod", "HotPink", "CadetBlue", "SeaGreen", "Chocolate", "BlueViolet", "Firebrick"],
+        "group": "Chatbot Engine"
+    },
+    "CBE_UseChatColor": {
+        "type": "checkbox",
+        "value": true,
+        "label": "Use chat color",
+        "tooltip": "Defines, if the chat color is used for messages aswell",
+        "group": "Chatbot Engine"
+    },
+    "CBE_DebugMode": {
+        "type": "checkbox",
+        "value": false,
+        "label": "Debug mode",
+        "tooltip": "If enabled, the timer for live duration will run even when not live",
+        "group": "Chatbot Engine"
+    },
+
+    "CBE_String_UnknownParameter": {
+        "type": "textbox",
+        "value": "Unknown parameter: $param",
+        "label": "Unknown parameter (available tags: $param)",
+        "tooltip": "This is shown, when a parameter is unknown",
+        "group": "Chatbot Engine: Localization"
+    },
+    "CBE_String_MissingParameter": {
+        "type": "textbox",
+        "value": "Missing parameter",
+        "label": "Missing parameter",
+        "tooltip": "This is shown, when a parameter is missing",
+        "group": "Chatbot Engine: Localization"
+    },
+    "CBE_String_CooldownOnCooldown": {
+        "type": "textbox",
+        "value": "!$command is still on cooldown for $cooldown seconds",
+        "label": "Command on cooldown response (available tags: $command, $cooldown)",
+        "tooltip": "The response if a triggered command in on cooldown",
+        "group": "Chatbot Engine: Localization"
+    },
+    "CBE_String_CooldownOnUserCooldown": {
+        "type": "textbox",
+        "value": "!$command is still on cooldown for you for $cooldown seconds",
+        "label": "Command on user cooldown response (available tags: $command, $cooldown)",
+        "tooltip": "The response if a triggered command in on user cooldown",
+        "group": "Chatbot Engine: Localization"
+    }
+}

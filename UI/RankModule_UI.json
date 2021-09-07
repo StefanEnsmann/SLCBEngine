@@ -1,0 +1,59 @@
+{
+    "Rank_CMDName": {
+        "type": "textbox",
+        "value": "rank",
+        "label": "Command for showing a users rank",
+        "tooltip": "The command for showing a users rank",
+        "group": "Module: Rank"
+    },
+    "Rank_CMDCooldown": {
+        "type": "numberbox",
+        "value": 60,
+        "label": "Cooldown",
+        "tooltip": "The cooldown for this command",
+        "group": "Module: Rank"
+    },
+    "Rank_CMDIsGlobalCooldown": {
+        "type": "checkbox",
+        "value": false,
+        "label": "Global cooldown",
+        "tooltip": "This shows if the command gets global cooldown",
+        "group": "Module: Rank"
+    },
+    "Rank_CMDUsage": {
+        "type": "textbox",
+        "value": "!rank",
+        "label": "The usage of this command",
+        "tooltip": "This is shown when fetching help for this command",
+        "group": "Module: Rank"
+    },
+    "Rank_CMDDescription": {
+        "type": "textbox",
+        "value": "Shows the rank for the given user in the leaderboard (or the own, if none given)",
+        "label": "Description",
+        "tooltip": "The description for this command",
+        "group": "Module: Rank"
+    },
+
+    "Rank_CMDFetchNumber": {
+        "type": "numberbox",
+        "value": 100,
+        "label": "Fetch amount",
+        "tooltip": "The amount of users, this command fetches, since the chatbot cannot fetch positions directly",
+        "group": "Module: Rank"
+    },
+    "Rank_CMDResponse": {
+        "type": "textbox",
+        "value": "$name is in place $rank with $currency $currencyname",
+        "label": "Response (available tags: $name, $rank, $currency, $currencyname)",
+        "tooltip": "The response, if this command is triggered",
+        "group": "Module: Rank"
+    },
+    "Rank_CMDNoCurrencyYet": {
+        "type": "textbox",
+        "value": "$name has no $currencyname yet...",
+        "label": "Response (available tags: $name, $currencyname)",
+        "tooltip": "The response, if this command is triggered, but the user has no coins yet",
+        "group": "Module: Rank"
+    }
+}

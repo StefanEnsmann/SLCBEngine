@@ -1,0 +1,51 @@
+{
+    "AD_CMDName": {
+        "type": "textbox",
+        "value": "advice",
+        "label": "Command name",
+        "tooltip": "The command for showing an advice",
+        "group": "Command: Advice"
+    },
+    "AD_CMDCooldown": {
+        "type": "numberbox",
+        "value": 30,
+        "label": "Cooldown",
+        "tooltip": "The cooldown for this command",
+        "group": "Command: Advice"
+    },
+    "AD_CMDIsGlobal": {
+        "type": "checkbox",
+        "value": true,
+        "label": "Global cooldown",
+        "tooltip": "Shows if this command has a global cooldown",
+        "group": "Command: Advice"
+    },
+    "AD_CMDUsage": {
+        "type": "textbox",
+        "value": "!advice (Cost: 300)",
+        "label": "Usage",
+        "tooltip": "The usage of this command",
+        "group": "Command: Advice"
+    },
+    "AD_CMDDescription": {
+        "type": "textbox",
+        "value": "Shows you a valuable advice",
+        "label": "Description",
+        "tooltip": "The description for this command",
+        "group": "Command: Advice"
+    },
+    "AD_Cost": {
+        "type": "numberbox",
+        "value": 300,
+        "label": "Cost",
+        "tooltip": "The currency cost for triggering this command",
+        "group": "Command: Advice"
+    },
+    "AD_NotEnoughCurrency": {
+        "type": "textbox",
+        "value": "$user, you need $cost $currencyname to do this!",
+        "label": "Response (not enough currency)",
+        "tooltip": "The response coming in chat, if the user does not have enough currency (use $user, $cost and $currencyname)",
+        "group": "Command: Advice"
+    }
+}

@@ -1,0 +1,88 @@
+{
+    "Hydration_CommandName": {
+        "type": "textbox",
+        "value": "hydration",
+        "label": "Command for showing hydration",
+        "tooltip": "The command for triggering hydration status",
+        "group": "Command: Stay hydrated"
+    },
+    "Hydration_CommandCooldown": {
+        "type": "numberbox",
+        "value": 120,
+        "label": "Cooldown",
+        "tooltip": "The cooldown for this command",
+        "group": "Command: Stay hydrated"
+    },
+    "Hydration_CommandIsGlobalCooldown": {
+        "type": "checkbox",
+        "value": true,
+        "label": "Global cooldown",
+        "tooltip": "This shows if the command gets global cooldown",
+        "group": "Command: Stay hydrated"
+    },
+    "Hydration_CommandUsage": {
+        "type": "textbox",
+        "value": "!hydration",
+        "label": "The usage of this command",
+        "tooltip": "This is shown when fetching help for this command",
+        "group": "Command: Stay hydrated"
+    },
+    "Hydration_CommandDescription": {
+        "type": "textbox",
+        "value": "Shows the invitation to drink something",
+        "label": "Description",
+        "tooltip": "The description for this command",
+        "group": "Command: Stay hydrated"
+    },
+
+    "Hydration_StayHydrated": {
+        "type": "textbox",
+        "value": "Stay hydrated! DrinkPurple",
+        "label": "Hydrated message",
+        "tooltip": "This text is shown when triggering a hydration reminder",
+        "group": "Module: Hydration"
+    },
+    "Hydration_StayBeerdrated": {
+        "type": "textbox",
+        "value": "Stay beerdrated! HSCheers",
+        "label": "Beerdrated message",
+        "tooltip": "This text is shown when triggering a beerdration reminder",
+        "group": "Module: Hydration"
+    },
+    "Hydration_Message": {
+        "type": "textbox",
+        "value": "$streamer is streaming since $time and should have consumed $amount of water",
+        "label": "Timing hydration text (available tags: $streamer, $time, $amount)",
+        "tooltip": "This text is shown after the reminder and in timed intervals",
+        "group": "Module: Hydration"
+    },
+    "Hydration_WaterString": {
+        "type": "textbox",
+        "value": "$amount ml",
+        "label": "The format string for water amounts",
+        "tooltip": "This formatted string is inserted everywhere, where $amount is processed",
+        "group": "Module: Hydration"
+    },
+
+    "Hydration_WaterPerHour": {
+        "type": "numberbox",
+        "value": 120,
+        "label": "Water per hour",
+        "tooltip": "The amount of water the streamer is supposed to drink per hour",
+        "group": "Module: Hydration"
+    },
+    "Hydration_BeerdratedChance": {
+        "type": "numberbox",
+        "value": 20,
+        "label": "Beerdrated chance",
+        "tooltip": "The chance in % that a beerdrated message is sent instead",
+        "group": "Module: Hydration"
+    },
+    "Hydration_StayHydratedInterval": {
+        "type": "numberbox",
+        "value": 1800,
+        "label": "Interval",
+        "tooltip": "Interval in which a reminder is sent automatically",
+        "group": "Module: Hydration"
+    }
+}

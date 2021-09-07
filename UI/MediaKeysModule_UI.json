@@ -1,0 +1,72 @@
+{
+    "MK_CMDName": {
+        "type": "textbox",
+        "value": "next",
+        "label": "Command name",
+        "tooltip": "The command for skipping the currently playing song",
+        "group": "Command: Next Song"
+    },
+    "MK_CMDCooldown": {
+        "type": "numberbox",
+        "value": 30,
+        "label": "Cooldown",
+        "tooltip": "The cooldown for this command",
+        "group": "Command: Next Song"
+    },
+    "MK_CMDIsGlobal": {
+        "type": "checkbox",
+        "value": true,
+        "label": "Global cooldown",
+        "tooltip": "Shows if this command has a global cooldown",
+        "group": "Command: Next Song"
+    },
+    "MK_CMDUsage": {
+        "type": "textbox",
+        "value": "!next (Cost: 100)",
+        "label": "Usage",
+        "tooltip": "The usage of this command",
+        "group": "Command: Next Song"
+    },
+    "MK_CMDDescription": {
+        "type": "textbox",
+        "value": "Plays the next song in the playlist",
+        "label": "Description",
+        "tooltip": "The description for this command",
+        "group": "Command: Next Song"
+    },
+    "MK_Cost": {
+        "type": "numberbox",
+        "value": 100,
+        "label": "Cost",
+        "tooltip": "The currency cost for triggering this command",
+        "group": "Command: Next Song"
+    },
+    "MK_FreeForMods": {
+        "type": "checkbox",
+        "value": true,
+        "label": "Free for mods",
+        "tooltip": "Is this command free for mods?",
+        "group": "Command: Next Song"
+    },
+    "MK_NotEnoughCurrency": {
+        "type": "textbox",
+        "value": "$user, you need $cost $currencyname to do this!",
+        "label": "Response (not enough currency)",
+        "tooltip": "The response coming in chat, if the user does not have enough currency (use $user, $cost and $currencyname)",
+        "group": "Command: Next Song"
+    },
+    "MK_Paid": {
+        "type": "textbox",
+        "value": "$user pays $cost $currencyname to skip this song!",
+        "label": "Response (success)",
+        "tooltip": "The response coming in chat, if the user successfully skips the song (use $user, $cost and $currencyname)",
+        "group": "Command: Next Song"
+    },
+    "MK_ModSkips": {
+        "type": "textbox",
+        "value": "$user does not pay $cost $currencyname due to the mod status!",
+        "label": "Response (mod skips)",
+        "tooltip": "The response coming in chat, if the user skips the song and is a mod (use $user, $cost and $currencyname)",
+        "group": "Command: Next Song"
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "Event_CommandName": {
+        "type": "textbox",
+        "value": "event",
+        "label": "Command for showing the time till your event",
+        "tooltip": "The command for showing the time till your event",
+        "group": "Module: Event"
+    },
+    "Event_CommandCooldown": {
+        "type": "numberbox",
+        "value": 120,
+        "label": "Cooldown",
+        "tooltip": "The cooldown for this command",
+        "group": "Module: Event"
+    },
+    "Event_CommandIsGlobalCooldown": {
+        "type": "checkbox",
+        "value": true,
+        "label": "Global cooldown",
+        "tooltip": "This shows if the command gets global cooldown",
+        "group": "Module: Event"
+    },
+    "Event_CommandUsage": {
+        "type": "textbox",
+        "value": "!event",
+        "label": "The usage of this command",
+        "tooltip": "This is shown when fetching help for this command",
+        "group": "Module: Event"
+    },
+    "Event_CommandDescription": {
+        "type": "textbox",
+        "value": "Shows the time until a given event",
+        "label": "Description",
+        "tooltip": "The description for this command",
+        "group": "Module: Event"
+    },
+
+    "Event_Start": {
+        "type": "textbox",
+        "value": "01-01-1999:10-00",
+        "label": "Start date of the event (dd-mm-yyyy:hh-mm)",
+        "tooltip": "Insert the start date of the event",
+        "group": "Module: Event"
+    },
+    "Event_End": {
+        "type": "textbox",
+        "value": "02-01-1999:10-00",
+        "label": "End date of the event (dd-mm-yyyy:hh-mm)",
+        "tooltip": "Insert the end date of the event",
+        "group": "Module: Event"
+    },
+    "Event_DaysRemainingResponse": {
+        "type": "textbox",
+        "value": "There are still $days days until event",
+        "label": "Response if the event starts after today (available tags: $days)",
+        "tooltip": "The response when the event has not started yet",
+        "group": "Module: Event"
+    },
+    "Event_StartsTodayResponse": {
+        "type": "textbox",
+        "value": "Event starts today!",
+        "label": "Response if the event starts today",
+        "tooltip": "The response when the event starts today",
+        "group": "Module: Event"
+    },
+    "Event_CurrentResponse": {
+        "type": "textbox",
+        "value": "Event is currently running!",
+        "label": "Response if the event is running",
+        "tooltip": "The response when the event has started",
+        "group": "Module: Event"
+    },
+    "Event_OverResponse": {
+        "type": "textbox",
+        "value": "Event is over already",
+        "label": "Response if the event is over",
+        "tooltip": "The response when the event is over",
+        "group": "Module: Event"
+    }
+}

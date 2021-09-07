@@ -1,0 +1,137 @@
+{
+    "Counter_CMDName": {
+        "type": "textbox",
+        "value": "counters",
+        "label": "Name",
+        "tooltip": "The command that list counters or can modify them",
+        "group": "Command: List and modify counters"
+    },
+    "Counter_CMDCooldown": {
+        "type": "numberbox",
+        "value": 10,
+        "label": "Cooldown",
+        "tooltip": "The cooldown for this command",
+        "group": "Command: List and modify counters"
+    },
+    "Counter_CMDIsGlobal": {
+        "type": "checkbox",
+        "value": true,
+        "label": "Global cooldown",
+        "tooltip": "Is the cooldown global or user based?",
+        "group": "Command: List and modify counters"
+    },
+    "Counter_CMDUsage": {
+        "type": "textbox",
+        "value": "!counters [add <countername> [format]|delete <countername> confirm]",
+        "label": "Usage",
+        "tooltip": "The usage of this command",
+        "group": "Command: List and modify counters"
+    },
+    "Counter_CMDDescription": {
+        "type": "textbox",
+        "value": "Shows all available commands",
+        "label": "Description",
+        "tooltip": "The full description of this command",
+        "group": "Command: List and modify counters"
+    },
+    "Counter_String_CounterJoin": {
+        "type": "textbox",
+        "value": ", ",
+        "label": "Limiter",
+        "tooltip": "The string to use for separating counters",
+        "group": "Command: List and modify counters"
+    },
+    "Counter_CMDModifyPermissions": {
+        "type": "dropdown",
+        "value": "moderator",
+        "label": "Permission needed for modification",
+        "items": ["everyone", "regular", "subscriber", "moderator", "editor", "invisible"],
+        "tooltip": "Only users with this permission can add or delete counters",
+        "group": "Command: List and modify counters"
+    },
+    "Counter_String_AvailableCounters": {
+        "type": "textbox",
+        "value": "Currently available counters: $list",
+        "label": "Available counters string (available tags: $list)",
+        "tooltip": "The text shown when listing counters",
+        "group": "Command: List and modify counters"
+    },
+
+    "Counter_CounterCooldown": {
+        "type": "numberbox",
+        "value": 10,
+        "label": "Cooldown",
+        "tooltip": "The cooldown for a counter",
+        "group": "Module: Counters"
+    },
+    "Counter_String_AddedCounter": {
+        "type": "textbox",
+        "value": "Added counter !$counter",
+        "label": "Added counter response (available tags: $counter)",
+        "tooltip": "The text sent when a counter is added",
+        "group": "Module: Counters"
+    },
+    "Counter_String_DeletedCounter": {
+        "type": "textbox",
+        "value": "Deleted counter !$counter",
+        "label": "Deleted counter response (available tags: $counter)",
+        "tooltip": "The text sent when a counter is deleted",
+        "group": "Module: Counters"
+    },
+    "Counter_String_Help": {
+        "type": "textbox",
+        "value": "!$counter [+ [<n>]|- [<n>]|set <n>] (Cooldown $cooldown seconds)",
+        "label": "Help text (available tags: $counter, $cooldown)",
+        "tooltip": "The text shown when fetching help for a counter",
+        "group": "Module: Counters"
+    },
+    "Counter_String_WholeNumber": {
+        "type": "textbox",
+        "value": "You have to provide a whole number",
+        "label": "Non-whole number response",
+        "tooltip": "The text shown when providing a non-whole number for a counter",
+        "group": "Module: Counters"
+    },
+    "Counter_String_AlreadyExists": {
+        "type": "textbox",
+        "value": "This counter already exists",
+        "label": "Counter already exists response",
+        "tooltip": "The text shown when a counter already exists",
+        "group": "Module: Counters"
+    },
+    "Counter_String_CommandExists": {
+        "type": "textbox",
+        "value": "There is already a command with this name",
+        "label": "Command exists response",
+        "tooltip": "The text shown when a command with the given counter name exists",
+        "group": "Module: Counters"
+    },
+    "Counter_String_NonASCII": {
+        "type": "textbox",
+        "value": "The counter name may only contain ascii-letters from a-z",
+        "label": "Invalid character response",
+        "tooltip": "The text shown when a counter name does contain invalid characters",
+        "group": "Module: Counters"
+    },
+    "Counter_String_ConfirmNeeded": {
+        "type": "textbox",
+        "value": "You have to confirm the deletion",
+        "label": "Confirmation needed response",
+        "tooltip": "The text shown when a confirmation for deletion is missing",
+        "group": "Module: Counters"
+    },
+    "Counter_String_DefaultFormat": {
+        "type": "textbox",
+        "value": "$counter today: $today ($total total)",
+        "label": "Default counter format (available tags: $counter, $today, $total)",
+        "tooltip": "The default text if no custom format is given for a counter",
+        "group": "Module: Counters"
+    },
+    "Counter_String_AccessError": {
+        "type": "textbox",
+        "value": "Error accessing counters",
+        "label": "Access error",
+        "tooltip": "The text shown when there was an error while accessing the counters",
+        "group": "Module: Counters"
+    }
+}

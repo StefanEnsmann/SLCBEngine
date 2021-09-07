@@ -1,0 +1,58 @@
+{
+    "Duty_CMDName": {
+        "type": "textbox",
+        "value": "duty",
+        "label": "Command name",
+        "tooltip": "The command for generating a duty",
+        "group": "Command: Duty"
+    },
+    "Duty_Cooldown": {
+        "type": "numberbox",
+        "value": 1800,
+        "label": "Cooldown",
+        "tooltip": "The cooldown for this command",
+        "group": "Command: Duty"
+    },
+    "Duty_IsGlobal": {
+        "type": "checkbox",
+        "value": false,
+        "label": "Global cooldown",
+        "tooltip": "Shows if this command has a global cooldown",
+        "group": "Command: Duty"
+    },
+    "Duty_Usage": {
+        "type": "textbox",
+        "value": "!duty",
+        "label": "Usage",
+        "tooltip": "The usage of this command",
+        "group": "Command: Duty"
+    },
+    "Duty_Description": {
+        "type": "textbox",
+        "value": "Generates a duty the streamer has to do",
+        "label": "Description",
+        "tooltip": "The description for this command",
+        "group": "Command: Duty"
+    },
+    "Duty_Response": {
+        "type": "textbox",
+        "value": "Streamer has to do {amount} {duty}",
+        "label": "Response",
+        "tooltip": "The response generated. Available tags: {duty}, {amount} ({duty} gets replaced first)",
+        "group": "Command: Duty"
+    },
+    "Duty_Duties": {
+        "type": "textbox",
+        "value": "Duty 1;Duty 2;Duty 3",
+        "label": "Duties",
+        "tooltip": "A list of duties, separated by \";\"",
+        "group": "Command: Duty"
+    },
+    "Duty_Amounts": {
+        "type": "textbox",
+        "value": "1;2;3;4",
+        "label": "Amounts",
+        "tooltip": "A list of possible amounts, separated by \";\"",
+        "group": "Command: Duty"
+    }
+}

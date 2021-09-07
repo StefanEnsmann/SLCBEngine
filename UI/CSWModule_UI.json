@@ -1,0 +1,214 @@
+{
+    "CSW_CMDName": {
+        "type": "textbox",
+        "value": "csw",
+        "label": "Command name",
+        "tooltip": "The command for listing CSW members",
+        "group": "Command: List CSW Members"
+    },
+    "CSW_CMDCooldown": {
+        "type": "numberbox",
+        "value": 300,
+        "label": "Cooldown",
+        "tooltip": "The cooldown for this command",
+        "group": "Command: List CSW Members"
+    },
+    "CSW_CMDIsGlobal": {
+        "type": "checkbox",
+        "value": false,
+        "label": "Global cooldown",
+        "tooltip": "Shows if this command has a global cooldown",
+        "group": "Command: List CSW Members"
+    },
+    "CSW_CMDUsage": {
+        "type": "textbox",
+        "value": "!csw [list]",
+        "label": "Usage",
+        "tooltip": "The usage of this command",
+        "group": "Command: List CSW Members"
+    },
+    "CSW_CMDDescription": {
+        "type": "textbox",
+        "value": "Zeigt die Mitglieder der CSW-Elite, die im Chat anwesend sind. Der Parameter \"list\" zeigt die gesamte CSW-Elite.",
+        "label": "Description",
+        "tooltip": "The description for this command",
+        "group": "Command: List CSW Members"
+    },
+    "CSW_CMDComplete": {
+        "type": "textbox",
+        "value": " Die CSW-Elite ist vollstaendig anwesend!",
+        "label": "Elite complete response",
+        "tooltip": "The text shown when all members are present",
+        "group": "Command: List CSW Members"
+    },
+    "CSW_CMDNobody": {
+        "type": "textbox",
+        "value": "Von der CSW-Elite ist leider noch keiner da...",
+        "label": "No one present response",
+        "tooltip": "The text shown when no member is present",
+        "group": "Command: List CSW Members"
+    },
+    "CSW_CMDJoin": {
+        "type": "textbox",
+        "value": ", ",
+        "label": "Members separator",
+        "tooltip": "The string used to separate members of the CSW elite",
+        "group": "Command: List CSW Members"
+    },
+    "CSW_CMDCurrent": {
+        "type": "textbox",
+        "value": "Die aktuelle CSW-Elite: $list",
+        "label": "Current elite format (available tags: $list)",
+        "tooltip": "The string formatted while showing the current CSW elite",
+        "group": "Command: List CSW Members"
+    },
+    "CSW_CMDMissing": {
+        "type": "textbox",
+        "value": " Es fehlen: $list",
+        "label": "Missing members format (available tags: $list)",
+        "tooltip": "The string formatted while showing missing members",
+        "group": "Command: List CSW Members"
+    },
+    "CSW_CMDPresent": {
+        "type": "textbox",
+        "value": "Von der CSW-Elite sind folgende Leute anwesend: $list.",
+        "label": "Present members format (available tags: $list)",
+        "tooltip": "The string formatted while showing present members",
+        "group": "Command: List CSW Members"
+    },
+    "CSW_CMDNotWritten": {
+        "type": "textbox",
+        "value": " Noch nicht geschrieben haben: $list.",
+        "label": "Present members (that have not written yet) format (available tags: $list)",
+        "tooltip": "The string formatted while showing present members that have not yet written",
+        "group": "Command: List CSW Members"
+    },
+    "CSW_CMDPresentButNotWritten": {
+        "type": "textbox",
+        "value": "Von der CSW-Elite sind folgende Leute anwesend: $list.",
+        "label": "Present members (that have not written yet and are all present members) format (available tags: $list)",
+        "tooltip": "The string formatted while showing present members that have not yet written (if that are all members that are present)",
+        "group": "Command: List CSW Members"
+    },
+
+    "CSW_LinkName": {
+        "type": "textbox",
+        "value": "cswlink",
+        "label": "Command name",
+        "tooltip": "The command for listing CSW members",
+        "group": "Command: Show CSW Link"
+    },
+    "CSW_LinkCooldown": {
+        "type": "numberbox",
+        "value": 300,
+        "label": "Cooldown",
+        "tooltip": "The cooldown for this command",
+        "group": "Command: Show CSW Link"
+    },
+    "CSW_LinkIsGlobal": {
+        "type": "checkbox",
+        "value": false,
+        "label": "Global cooldown",
+        "tooltip": "Shows if this command has a global cooldown",
+        "group": "Command: Show CSW Link"
+    },
+    "CSW_LinkUsage": {
+        "type": "textbox",
+        "value": "!cswlink [own]",
+        "label": "Usage",
+        "tooltip": "The usage of this command",
+        "group": "Command: Show CSW Link"
+    },
+    "CSW_LinkDescription": {
+        "type": "textbox",
+        "value": "Zeigt den Link zum Twitch-Kanal von Mitgliedern der CSW-Elite. Der Parameter \"own\" zeigt den Link zum eigenen Kanal, fall der Nutzer der CSW-Elite angehoert",
+        "label": "Description",
+        "tooltip": "The description for this command",
+        "group": "Command: Show CSW Link"
+    },
+    "CSW_LinkLessThanTwo": {
+        "type": "textbox",
+        "value": "Aktuell sind weniger als 2 Leute Mitglied der CSW-Elite...",
+        "label": "Less than two members response",
+        "tooltip": "The text shown when there are less than two members in the CSW-Elite",
+        "group": "Command: Show CSW Link"
+    },
+    "CSW_LinkString": {
+        "type": "textbox",
+        "value": "Hey, besucht mal den Kanal von $user: $link",
+        "label": "Link string (available tags: $user, $link)",
+        "tooltip": "The text shown when fetching a CSW-link",
+        "group": "Command: Show CSW Link"
+    },
+
+    "CSW_EventsName": {
+        "type": "textbox",
+        "value": "events",
+        "label": "Command name",
+        "tooltip": "The command for listing CSW events",
+        "group": "Command: List CSW Events"
+    },
+    "CSW_EventsCooldown": {
+        "type": "numberbox",
+        "value": 120,
+        "label": "Cooldown",
+        "tooltip": "The cooldown for this command",
+        "group": "Command: List CSW Events"
+    },
+    "CSW_EventsIsGlobal": {
+        "type": "checkbox",
+        "value": true,
+        "label": "Global cooldown",
+        "tooltip": "Shows if this command has a global cooldown",
+        "group": "Command: List CSW Events"
+    },
+    "CSW_EventsUsage": {
+        "type": "textbox",
+        "value": "!events",
+        "label": "Usage",
+        "tooltip": "The usage of this command",
+        "group": "Command: List CSW Events"
+    },
+    "CSW_EventsDescription": {
+        "type": "textbox",
+        "value": "Zeigt die naechsten Termine des CSW-Streamings an",
+        "label": "Description",
+        "tooltip": "The description for this command",
+        "group": "Command: List CSW Events"
+    },
+    "CSW_EventsMax": {
+        "type": "numberbox",
+        "value": 120,
+        "label": "Maximum displayed events",
+        "tooltip": "Shows how many events are listed at max per fetch",
+        "group": "Command: List CSW Events"
+    },
+    "CSW_EventsJoin": {
+        "type": "textbox",
+        "value": " ||| ",
+        "label": "Separator",
+        "tooltip": "The string used to separate events",
+        "group": "Command: List CSW Events"
+    },
+    "CSW_EventsNoMore": {
+        "type": "textbox",
+        "value": "Aktuell sind noch keine weiteren Termine geplant",
+        "label": "No more events planned response",
+        "tooltip": "The text shown when there are no further events planned",
+        "group": "Command: List CSW Events"
+    },
+    "CSW_EventsError": {
+        "type": "textbox",
+        "value": "Kann aktuell nicht auf Termine zugreifen...",
+        "label": "Error response",
+        "tooltip": "The text shown when an error occurs while accessing events",
+        "group": "Command: List CSW Events"
+    },
+    "CSW_EventsTimedUpdate": {
+        "type": "numberbox",
+        "value": 600,
+        "label": "Timed file write",
+        "tooltip": "The time interval in seconds, in which a formatted file is written",
+        "group": "Command: List CSW Events"
+    }
+}

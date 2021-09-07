@@ -1,0 +1,59 @@
+{
+    "Joke_CommandName": {
+        "type": "textbox",
+        "value": "joke",
+        "label": "Command for showing a joke",
+        "tooltip": "The command for triggering a joke",
+        "group": "Module: Joke"
+    },
+    "Joke_CommandCooldown": {
+        "type": "numberbox",
+        "value": 120,
+        "label": "Cooldown",
+        "tooltip": "The cooldown for this command",
+        "group": "Module: Joke"
+    },
+    "Joke_CommandIsGlobalCooldown": {
+        "type": "checkbox",
+        "value": true,
+        "label": "Global cooldown",
+        "tooltip": "This shows if the command gets global cooldown",
+        "group": "Module: Joke"
+    },
+    "Joke_CommandUsage": {
+        "type": "textbox",
+        "value": "!joke",
+        "label": "The usage of this command",
+        "tooltip": "This is shown when fetching help for this command",
+        "group": "Module: Joke"
+    },
+    "Joke_CommandDescription": {
+        "type": "textbox",
+        "value": "Shows a joke",
+        "label": "Description",
+        "tooltip": "The description for this command",
+        "group": "Module: Joke"
+    },
+
+    "Joke_UseTimer": {
+        "type": "checkbox",
+        "value": false,
+        "label": "Use timer",
+        "tooltip": "Sends a joke, if this is checked",
+        "group": "Module: Joke"
+    },
+    "Joke_JokeInterval": {
+        "type": "numberbox",
+        "value": 1800,
+        "label": "Interval",
+        "tooltip": "Interval in which a joke is sent automatically",
+        "group": "Module: Joke"
+    },
+    "Joke_NoJokeAvailable": {
+        "type": "textbox",
+        "value": "There are no jokes in the database",
+        "label": "No jokes response",
+        "tooltip": "The response when there is no joke available",
+        "group": "Module: Joke"
+    }
+}

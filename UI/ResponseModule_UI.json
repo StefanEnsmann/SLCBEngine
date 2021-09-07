@@ -1,0 +1,16 @@
+{
+    "Response_Phrase": {
+        "type": "textbox",
+        "value": "F",
+        "label": "Triggering phrase",
+        "tooltip": "Response is case sensitive and ignores trailing exclamation marks",
+        "group": "Module: Response"
+    },
+    "Response_Cooldown": {
+        "type": "numberbox",
+        "value": 120,
+        "label": "Cooldown",
+        "tooltip": "The cooldown for triggering a response",
+        "group": "Module: Response"
+    }
+}

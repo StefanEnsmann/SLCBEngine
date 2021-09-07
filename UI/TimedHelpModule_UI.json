@@ -1,0 +1,16 @@
+{
+    "TimedHelp_Interval": {
+        "type": "numberbox",
+        "value": 1020,
+        "label": "Interval for timed help (in seconds)",
+        "tooltip": "The bot will send a help message for a random command each x seconds",
+        "group": "Module: Timed Help"
+    },
+    "TimedHelp_Message": {
+        "type": "textbox",
+        "value": "$help (!commands for a list of all commands)",
+        "label": "Timed help text (available tags: $help)",
+        "tooltip": "The text that is shown for tiemd helps",
+        "group": "Module: Timed Help"
+    }
+}

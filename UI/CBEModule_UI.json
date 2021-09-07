@@ -1,0 +1,165 @@
+{
+    "CBE_CommandsName": {
+        "type": "textbox",
+        "value": "commands",
+        "label": "Name",
+        "tooltip": "The command that lists all registered commands",
+        "group": "Command: List all commands"
+    },
+    "CBE_CommandsCooldown": {
+        "type": "numberbox",
+        "value": 10,
+        "label": "Cooldown",
+        "tooltip": "The cooldown for this command",
+        "group": "Command: List all commands"
+    },
+    "CBE_CommandsIsGlobal": {
+        "type": "checkbox",
+        "value": true,
+        "label": "Global cooldown",
+        "tooltip": "Is the cooldown global or user based?",
+        "group": "Command: List all commands"
+    },
+    "CBE_CommandsUsage": {
+        "type": "textbox",
+        "value": "!commands",
+        "label": "Usage",
+        "tooltip": "The usage of this command",
+        "group": "Command: List all commands"
+    },
+    "CBE_CommandsDescription": {
+        "type": "textbox",
+        "value": "Shows all available commands",
+        "label": "Description",
+        "tooltip": "The full description of this command",
+        "group": "Command: List all commands"
+    },
+    "CBE_String_CommandJoin": {
+        "type": "textbox",
+        "value": ", ",
+        "label": "Limiter",
+        "tooltip": "The string to use for separating commands",
+        "group": "Command: List all commands"
+    },
+
+    "CBE_CooldownName": {
+        "type": "textbox",
+        "value": "cooldown",
+        "label": "Name",
+        "tooltip": "The command that shows the cooldown status",
+        "group": "Command: Show cooldown status"
+    },
+    "CBE_CooldownCooldown": {
+        "type": "numberbox",
+        "value": 30,
+        "label": "Cooldown",
+        "tooltip": "The cooldown for this command",
+        "group": "Command: Show cooldown status"
+    },
+    "CBE_CooldownIsGlobal": {
+        "type": "checkbox",
+        "value": true,
+        "label": "Global cooldown",
+        "tooltip": "Is the cooldown global or user based?",
+        "group": "Command: Show cooldown status"
+    },
+    "CBE_CooldownUsage": {
+        "type": "textbox",
+        "value": "!cooldown",
+        "label": "Usage",
+        "tooltip": "The usage of this command",
+        "group": "Command: Show cooldown status"
+    },
+    "CBE_CooldownDescription": {
+        "type": "textbox",
+        "value": "Shows current status of all commands",
+        "label": "Description",
+        "tooltip": "The full description of this command",
+        "group": "Command: Show cooldown status"
+    },
+    "CBE_String_CooldownFormat": {
+        "type": "textbox",
+        "value": "!$command ($cooldown s)",
+        "label": "Cooldown format (available tags: $command, $cooldown)",
+        "tooltip": "The cooldown text format for a single command",
+        "group": "Command: Show cooldown status"
+    },
+    "CBE_String_CooldownNoCommandsOnCooldown": {
+        "type": "textbox",
+        "value": "There are no commands on cooldown",
+        "label": "Text for non existing cooldown",
+        "tooltip": "The text that is shown when there are no commands on cooldown",
+        "group": "Command: Show cooldown status"
+    },
+    "CBE_String_CooldownCurrentlyOnCooldown": {
+        "type": "textbox",
+        "value": "Currently on cooldown: $list",
+        "label": "Text for global cooldown (available tags: $list)",
+        "tooltip": "The text that is shown for global cooldown when fetching cooldowns",
+        "group": "Command: Show cooldown status"
+    },
+    "CBE_String_CooldownCurrentlyOnUserCooldown": {
+        "type": "textbox",
+        "value": "Currently on cooldown for you: $list",
+        "label": "Text for user cooldown (available tags: $list)",
+        "tooltip": "The text that is shown for user cooldown when fetching cooldowns",
+        "group": "Command: Show cooldown status"
+    },
+    "CBE_String_CooldownJoin": {
+        "type": "textbox",
+        "value": " ||| ",
+        "label": "Cooldown command separator",
+        "tooltip": "The string used for separating commands on cooldown",
+        "group": "Command: Show cooldown status"
+    },
+
+    "CBE_HelpName": {
+        "type": "textbox",
+        "value": "help",
+        "label": "Name",
+        "tooltip": "The command that shows help for a command",
+        "group": "Command: Show command help"
+    },
+    "CBE_HelpCooldown": {
+        "type": "numberbox",
+        "value": 10,
+        "label": "Cooldown",
+        "tooltip": "The cooldown for this command",
+        "group": "Command: Show command help"
+    },
+    "CBE_HelpIsGlobal": {
+        "type": "checkbox",
+        "value": true,
+        "label": "Global cooldown",
+        "tooltip": "Is the cooldown global or user based?",
+        "group": "Command: Show command help"
+    },
+    "CBE_HelpUsage": {
+        "type": "textbox",
+        "value": "!help <command>",
+        "label": "Usage",
+        "tooltip": "The usage of this command",
+        "group": "Command: Show command help"
+    },
+    "CBE_HelpDescription": {
+        "type": "textbox",
+        "value": "Shows help for the given command",
+        "label": "Description",
+        "tooltip": "The full description of this command",
+        "group": "Command: Show command help"
+    },
+    "CBE_String_Help": {
+        "type": "textbox",
+        "value": "$usage (Cooldown $cooldown seconds): $description",
+        "label": "Help text (available tags: $usage, $cooldown, $description)",
+        "tooltip": "The text that is shown when using the help command",
+        "group": "Command: Show command help"
+    },
+    "CBE_String_HelpUnknown": {
+        "type": "textbox",
+        "value": "$command is no known command",
+        "label": "Unknown command response (available tags: $command)",
+        "tooltip": "The text that is shown when requesting help for an unknown command",
+        "group": "Command: Show command help"
+    }
+}
